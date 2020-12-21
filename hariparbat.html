@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
+	<title>HARI PARBAT</title>
+	<link rel="stylesheet" type="text/css" href="css/parbat.css">
+	<link rel="icon" href="favicon.ico">
+	</head>
+<body>
+	
+	<header>
+	<div class="main">
+		
+		<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="explorebtn.html">REGIONS</a></li>
+				<li><a href="home.php">REST HOUSE</a></li>
+				<li><a href="contact.html">ABOUT</a></li>
+			</ul>
+
+	</div>
+	
+	
+	
+	
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="images/2-10.jpg" style="width:100%">
+  <div class="text">Shaarika maa temple</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/Hari-Parbat.jpg" style="width:100%">
+  <div class="text">distant view of Durrani fort</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="images/hari.jpg" style="width:100%">
+  <div class="text">shila in temple</div>
+</div>
+ 
+ 
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2999); //  time interval in seconds
+}
+</script>
+
+
+	<div class="title">
+		<h2>Sharika Mata Temple Hari Parbat</h2>
+		<br>
+		<h6><small>“Hari Parbhat” also known as “Sharika peeth” is one of the most holiest sacred Place for the Hindus of Kashmir. Legend says that at this Place, Goddess Sharika killed the demon “Jalodbhava”. The Goddess in the form of “Haer”(Myna) at the behest of her devotees dropped a Pebble from above on Jalodbhava. The pebble became larger and larger. When it Hit the Demon, the pebble had grown to the size of a Hill.The Demon was crushed under the Hill. The Hill that dropped on the Demon came to be known as “Hari Parbaht”. The Mother Goddess resides there by the name of “Sharika” or “Tripursundari”. The eighteen-armed Goddess is considered as the presiding deity of the Srinagar city. She resides here in the form of syambu “Sri-Chakra”, also known as “Maha yantra”.This mystic Chakra is self-engraved on the Holy Shila( a vertical rock smeared in sindoor).Since the Divine Mother resides in the form of a “Chakra”, hence, she is also locally known as “Chakeshwari” and the place/temple as “Chakrieshwar”.</small></h6>
+	</header>
+</body></html>
+
