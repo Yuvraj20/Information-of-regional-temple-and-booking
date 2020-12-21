@@ -1,25 +1,14 @@
-SIMPLE ONLINE HOTEL RESERVATION SYSTEM IN PHP
-
-
 Login Details
 
 Username: admin
 Password: admin
 
 
-Developed By Mark Arvin Arandilla
 
 DON'T FORGET TO CREATE A DATABASE NAMING "db_hor" AND IMPORT THE DATBASE SQL FILE.
 WITHOUT THE DATABASE THE PROJECT WON'T RUN.
 
-***** IF YOU FIND ANY ERRORS OR ANY PROBLEMS RELATED THIS PROGRAM, FEEL FREE TO CONTACT US *****  
-
-
-***** LEAVE A COMMENT IF YOU LOVED OUR WORK *****
-
-
-***** FOR MORE PROJECTS :- https://code-projects.org/ *****
-
+Note: This project will work on localhost perfectly but if you host this website anywhere sessions errors will occur
 
 
 #THANK YOU FOR DOWNLOADING
